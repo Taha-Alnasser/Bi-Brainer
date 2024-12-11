@@ -1,5 +1,5 @@
 # Bi-Brainer
-A dual algorithm that utilizes Minimax and MCTS dynamically by switching at the point of a threshold during the game.
+A dual algorithm that utilizes Minimax with alpha-beta pruning and MCTS by switching dynamically at the point of a threshold during the game. The algorithm is then compared to individual tests of Minimax and MCTS in Gomoku.
 
 Instructions on running:
 1. Ensure you have aima-python installed as well as regular python libraries such as random.
